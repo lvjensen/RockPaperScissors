@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/styles.css">
+    <script type='text/javascript' src="code.js">
+    </script>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Overpass:wght@900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Rock Paper Scissors</title>
+  </head>
+  <body>
+  <header>
+    <h1>Rock, Paper, Scissors</h1>
+    <h4>Created by Logan Jensen</h4>
+    <p>Instructions:</p>
+    <div class="instructions">
+      <ol>
+        <li>Choose either the Rock, Paper, or Scissors button on the left.</li>
+        <li>Click on your choice.</li>
+        <li>Win, lose or tie.</li>
+        <li>That's it. It's not very complicated. Play again if you want.</li>
+      </ol>
+    </div>
+  </header>
+
+    <div class="wrapper">
+      <div class="grid-1" onclick="rock()">
+        <img src="images/rock.png" alt='Rock'>
+      </div>
+      <div class="grid-2">
+        <h1>Your Choice</h1>
+        <div class='choice' id='self'>
+        </div>
+      </div>
+      <div class="grid-3">
+        <h1>Opponent's Choice</h1>
+        <div class='choice' id='opponent'>
+        </div>
+      </div>
+      <div class="grid-4" onclick="paper()">
+        <img src="images/paper.png" alt='Paper'>
+      </div>
+      <div class="grid-5" onclick="scissors()">
+        <img src="images/scissors.png" alt='Scissors'>
+      </div>
+      <div class="grid-6">
+        <span><h2 id='end' ></h2></span>
+      </div>
+    </div>
+    <footer class='footer1'>
+
+      <ul>
+        <li ><a href="https://github.com/lvjensen/lvjensen.github.io" class='fa fa-lg fa-github'></a></li>
+        <li><a href="https://www.linkedin.com/in/loganvjensen/" class='fa fa-lg fa-linkedin'></a></li>
+        <li ><a href="mailto:loganvjensen@gmail.com">Contact Me</a></li>
+      </ul>
+
+    </footer>
+
+  </body>
+</html>
